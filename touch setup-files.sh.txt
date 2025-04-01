@@ -1,0 +1,17 @@
+cat > setup-files.sh << 'EOF'
+#!/bin/bash
+
+# Criar diretórios necessários
+mkdir -p app/api/assinaturas/ciclos
+mkdir -p app/api/assinaturas/upgrade
+mkdir -p app/api/assinaturas/cancelar
+mkdir -p app/api/assinaturas/reativar
+mkdir -p app/api/assinaturas/historico
+mkdir -p app/planos
+mkdir -p app/configuracoes/assinatura
+mkdir -p components/payments
+mkdir -p lib
+mkdir -p supabase
+
+
+chmod +x setup-files.sh
